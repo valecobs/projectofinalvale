@@ -2,5 +2,5 @@
     background-color: #02733E !important;
 }
 .nav.navbar-nav.navbar-right li a {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
 }
