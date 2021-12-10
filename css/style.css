@@ -11,5 +11,7 @@
     z-index: 0;
 }
 .carousel__opacity{
-    color: rgba(71, 71, 71, 0.137) !important;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+    background-color: #000;
 }
