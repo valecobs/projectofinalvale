@@ -18,3 +18,7 @@
 .color{
     background-color: #000;
 }
+.carousel-caption{
+    border: 1px solid;
+    bottom: 44%;
+}
