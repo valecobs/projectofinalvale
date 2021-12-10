@@ -22,3 +22,8 @@
     border: 1px solid;
     bottom: 44%;
 }
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1228px;
+}
