@@ -24,4 +24,13 @@
     border: 1px solid;
     bottom: 44%;
 }
+.figure-caption{
+    position: absolute;
+    bottom: 23px;
+    padding: 11px;
+    width: 100%;
+}
+.figure{
+    position: relative;
+}
 
