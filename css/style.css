@@ -94,3 +94,9 @@
 .bg-light .navbar-nav .nav-link{
     color:#445140 !important;
 }
+#acerca{
+  background-image: url('https://www.ferema.org/images/bg/memorial.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
