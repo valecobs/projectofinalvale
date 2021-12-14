@@ -82,3 +82,14 @@
 .fa{
     font-size:70px;
 }
+.logo {
+    width: 252px;
+    height: auto;
+}
+.bg-light{
+    background-color:white !important;
+    color:#445140 !important;
+}
+.bg-light .navbar-nav .nav-link{
+    color:#445140 !important;
+}
