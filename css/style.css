@@ -1,36 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap');
-.navbar-ferema{
-    background-color: #02733E !important;
-    font-family: 'Roboto', sans-serif;  
-    font-weight: 900;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap");
+.navbar-ferema {
+  background-color: #02733e !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 .navbar .navbar-nav .nav-link {
-    color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
-.carousel{
-    position: relative;
-    z-index: 0;
-    margin-top: 120px;
+.carousel {
+  position: relative;
+  z-index: 0;
+  margin-top: 120px;
 }
-.carousel__opacity{
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* msie */
-    background-color: #000;
+.carousel__opacity {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+  background-color: #000;
 }
-.color{
-    background-color: #000;
+.color {
+  background-color: #000;
 }
-.carousel-caption{
-    border: 1px solid;
-    bottom: 44%;
+.carousel-caption {
+  border: 1px solid;
+  bottom: 44%;
 }
-.figure-caption{
-    position: absolute;
-    bottom: 23px;
-    padding: 11px;
-    width: 100%;
+.figure-caption {
+  position: absolute;
+  bottom: 23px;
+  padding: 11px;
+  width: 100%;
 }
-.figure{
-    position: relative;
+.figure {
+  position: relative;
 }
-
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 30px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  background: #f1f1f1;
+  color: #666;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+.text-primary{
+    color:#f0b558 !important;
+}
+.fa{
+    font-size:70px;
+}
