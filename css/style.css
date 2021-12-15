@@ -76,7 +76,10 @@
   pointer-events: none;
   background: #ccc;
 }
-.text-primary{
+.btn-primary{
+  background-color:#f0b558 !important;
+}
+.text-primary, {
     color:#f0b558 !important;
 }
 .fa{
