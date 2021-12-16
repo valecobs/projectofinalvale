@@ -120,3 +120,15 @@
   color:white;
   font-weight: 100;
 }
+.fcolor{
+  color:#1b5583;
+}
+.Ahero
+{
+  background-image: url('https://www.ferema.org/images/mission-vision/cover.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-color: #000;
+}
