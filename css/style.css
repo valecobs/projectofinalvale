@@ -156,3 +156,11 @@
   color: white;
   border-radius: 8px;
 }
+.fpi {
+  font-size: 12px !important;
+  margin-right: 12px;
+}
+.pyp-btn{
+  background-color: #445140;
+  color: white;
+}
