@@ -28,7 +28,10 @@
   position: absolute;
   bottom: 23px;
   padding: 11px;
-  width: 100%;
+  width: 97%;
+  background-color: #f0b558;
+  margin: 0px 7px;
+  color: white;
 }
 .figure {
   position: relative;
